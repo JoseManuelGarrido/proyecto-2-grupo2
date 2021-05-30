@@ -4,11 +4,11 @@ ola Mohamed k ase!<br>
 ola Dani k ase!
 
 
-Intregrantes del grupo "The Codengers"
+<u><h3>Intregrantes del grupo "The Codengers"</h3></u>
 
--Mohamad Kaki: Tony Stark / Iron Man<br>
--Manuel Igor: Steve Rogers / Capitán América<br>
--Alicia Estrada: Natasha Romanoff / Viuda Negra<br>
--José Manuel Garrido: Thor Príncipe de Asgard<br>
--Francisco Javier: Bruce Banner / Hulk<br>
--Rosibell: Wanda Maximoff / Bruja Escarlata<br>
+-<strong><u>Mohamad Kaki:</u></strong> Tony Stark / Iron Man<br>
+-<strong><u>Manuel Igor:</u></strong> Steve Rogers / Capitán América<br>
+-<strong><u>Alicia Estrada:</u></strong> Natasha Romanoff / Viuda Negra<br>
+-<strong><u>José Manuel Garrido:</u></strong> Thor Príncipe de Asgard<br>
+-<strong><u>Francisco Javier:</u></strong> Bruce Banner / Hulk<br>
+-<strong><u>Rosibel Alvarez:</u></strong> Wanda Maximoff / Bruja Escarlata<br>
