@@ -1,0 +1,43 @@
+
+.eventos-imagen-titulo{
+    position: relative;
+    background-image: url('assets/img/imagen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+/*
+#fondo-transparente{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.50);
+    height: 170px;
+}
+*/
+
+.eventos-transparencia-titulo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.50);
+    height: 170px;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+/*
+.eventos-titulo-h1{
+    position: absolute;
+}
+
+.eventos-subtitulo-h4{
+    position: absolute;
+}
+*//*
+.eventos-proximos{
+    margin-top:30px;
+}
+
+.eventos-lista{
+    margin-top:30px;
+}*/
