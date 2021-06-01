@@ -1,0 +1,171 @@
+  /*---------------------------------------*/
+ /* CSS DE LA PAGINA PRINCIPAL DE EVENTOS */
+/*---------------------------------------*/
+
+@font-face{
+    font-family: "Monserrat";
+    src: url();
+}
+
+body{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+}
+
+a:link, a:visited, a:active {
+    color: unset;
+    text-decoration:none;
+}
+
+.eventos-imagen-titulo{
+    position: relative;
+    background-image: url('assets/img/imagen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+/*
+#fondo-transparente{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.50);
+    height: 170px;
+}
+*/
+
+.eventos-transparencia-titulo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.50);
+    height: 170px;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+/*
+.eventos-titulo-h1{
+    position: absolute;
+}
+
+.eventos-subtitulo-h4{
+    position: absolute;
+}
+*//*
+
+.eventos-lista{
+    margin-top:30px;
+}*/
+
+h3{
+    margin-top: 40px;
+}
+
+.eventos-proximos{
+    margin-top:30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#enlace-eventos{
+    margin-right: 10px;
+    padding: 0px;
+    width: 32%;
+}
+
+#enlace2-eventos{
+    margin-right: 0px 10px;
+    padding: 0px;
+    width: 32%;
+}
+
+#enlace3-eventos{
+    margin-left: 10px;
+    padding: 0px;
+    width: 32%;
+}
+
+.articulo-eventos{
+    display: flex;
+    background-color: lawngreen;
+    background-image: url('assets/img/cabecera-incio-06.jpg');
+    border-style: solid;
+    border-color: silver;
+    border-width: 0.1px;
+    border-radius: 10px;
+    width: 100%;
+    height: 280px;
+    align-items: flex-end;
+}
+
+.pie-articulo{
+    background-color: white;
+    width: 100%;
+    height: 110px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2px 9px;
+}
+
+.pie-articulo p{
+    margin: 0px;
+    padding: 0px;
+}
+
+#fecha-evento{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#mes-evento{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#caracteristicas-evento{
+    display: flex;
+    flex-direction: row;
+}
+
+#caracteristicas-evento2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hora-evento{
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 9px;
+}
+
+#hora-evento2{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#texto-evento{
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#titulo-evento{
+    font-weight: bold;
+}
+
+#descripcion-evento{
+    line-height: 1.1;
+}
+
+#asistentes-eventos{
+    text-align: right;
+}
+
+
+
+  /*-----------------------------------------------*/
+ /* FIN DEL CSS DE LA PAGINA PRINCIPAL DE EVENTOS */
+/*-----------------------------------------------*/
