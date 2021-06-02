@@ -17,7 +17,7 @@
   </head>
   <body>
     <div id="eventos-container">
-      <header class="text-center">
+      <header class="text-center cabeza-titulo">
         <div class="eventos-imagen-titulo">
           <div class="eventos-transparencia-titulo">
             <h1 class="eventos-titulo-h1">Eventos</h1>
@@ -28,80 +28,12 @@
       </header>
 
       <div class="container">
-        <h3>Próximos eventos</h3>
-        <section class="eventos-proximos">
-          <a id="enlace-eventos" href="">
-            <article class="articulo-eventos primer-articulo">
-              <div class="pie-articulo">
-                <p id="fecha-evento">Miércoles 29 - <span id="mes-evento">SEPTIEMBRE</span> - 2021</p>
-                <div id="caracteristicas-evento">
-                  <p id="hora-evento">18:30h</p>
-                  <div id="texto-evento">
-                    <p id="titulo-evento">Crea tu personaje en 3D</p>
-                    <p id="descripcion-evento">Evento donde aprenderemmos a crear personajes...</p>
-                    <p id="asistentes-eventos">33 asistentes</p>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </a>
-          <a id="enlace2-eventos" href="">
-            <article class="articulo-eventos segundo-articulo">
-              <div class="pie-articulo">
-                <div id="caracteristicas-evento2">
-                  <p id="fecha-evento">Miércoles 29 - <span id="mes-evento">SEPTIEMBRE</span> - 2021</p>
-                  <p id="hora-evento2">18:30h</p>
-                </div>
-                <div id="texto-evento">
-                  <p id="titulo-evento">Crea tu personaje en 3D con 3D Studio Max</p>
-                  <p id="descripcion-evento">Evento donde aprenderemmos a crear personajes para videojuegos...</p>
-                  <p id="asistentes-eventos">33 asistentes</p>
-                </div>
-              </div>
-            </article>
-          </a>
-          <a id="enlace3-eventos" href="">
-            <article class="articulo-eventos tercer-articulo">
-              <div class="pie-articulo">
-                hola
-              </div>
-            </article>
-          </a>
-        </section>
-
+        
         <h3 class="text-center">Listado de eventos</h3>
-        <section class="text-center  eventos-listado">
-          <a id="enlace-listado" href="">
-            <article class="articulo-listado">
-              <div class="diseño-listado">
-                <p id="fecha-listado">Miércoles 29 - <span id="mes-listado">SEPTIEMBRE</span> - 2021</p>
-                <div id="caracteristicas-listado">                  
-                  <p id="hora-listado">18:30h</p>                
-                  <div id="texto-listado">
-                    <p id="titulo-listado">Crea tu personaje en 3D con 3D Studio Max</p>
-                    <p id="descripcion-listado">Evento donde aprenderemmos a crear personajes para videojuegos...</p>
-                    <p id="asistentes-listado">33 asistentes</p>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </a>
+        <section class="eventos-listado">
 
-          <a id="enlace-listado" href="">
-            <article class="articulo-listado">
-              <div class="listado-contenedor">
-                <div id="caracteristicas-listado">
-                  <p id="fecha-listado">Miércoles 29 - <span id="mes-listado">SEPTIEMBRE</span> - 2021</p>
-                  <p id="hora-listado">18:30h</p>
-                </div>
-                <div id="texto-listado">
-                  <p id="titulo-listado">Crea tu personaje en 3D con 3D Studio Max</p>
-                  <p id="descripcion-listado">Evento donde aprenderemmos a crear personajes para videojuegos...</p>
-                  <p id="asistentes-listado">33 asistentes</p>
-                </div>
-              </div>
-            </article>
-          </a>
+          <ul id="todo-list"></ul>
+
         </section>
       </div>
     </div>
@@ -117,5 +49,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     -->
   </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="assets/js/app.js"></script>
 </html>

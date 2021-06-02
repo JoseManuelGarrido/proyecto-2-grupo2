@@ -1,43 +1,28 @@
 window.onload = function(){
 
-    document.getElementById("miBoton").addEventListener('click', function(){
-        var newarticle = document.createElement("article");
-        var divfecha = document.createElement("div");
-        var divhora = document.createElement("div");
-        //var divcuerpo = document.createElement("div");
-        //var ptitulo = document-createElement("p");
-        // var pdescripcion = document-createElement("p");
-        // var pasistentes = document.createElement("p");
-
-        //divcuerpo.appendChild(ptitulo);
-        document.body.appendChild(newarticle);
-        
-
-        var divtextofecha = document.createTextNode("Viernes 12 - ENERO - 2022");
-        divfecha.appendChild(divtextofecha);
-        var divtextohora = document.createTextNode("22:00h");
-        divhora.appendChild(divtextohora);
-        
-        divfecha.setAttribute
-        
-        
-        //var ptextotitulo = document.createTextNode("Titulo evento 2");
-        //ptitulo.appendChild(ptextotitulo);
-        // var ptextodescripcion = document.createTextNode("Descripcion evento 2");
-        // pdescripcion.appendChild(ptextodescripcion);
-        // var ptextoasistentes = document.createTextNode("0 asistentes");
-        // pasistentes.appendChild(ptextoasistentes);
-
-        
-        // divcuerpo.appendChild(pdescripcion);
-        // divcuerpo.appendChild(pasistentes);
-
-        newarticle.appendChild(divfecha);
-        newarticle.appendChild(divhora);
-        //newarticle.appendChild(divcuerpo);
-
-        // body.appendChild(newarticle);
-
-    });
-
+    axios.get('http://192.168.1.217:3000/api/v1/events', {
+                responseType: 'json'
+            })
+            .then(function(res) {
+                if (res.status == 200) {
+                    var todoList = document.getElementById('todo-list');
+                    var arrayData = res.data.data;
+                    todoList.innerHTML = '';
+                    for (let i = 0; i < arrayData.length; i++) {
+                        console.log(arrayData);
+                        console.log(arrayData[i]);
+                        console.log(i);
+                        todoList.innerHTML += '<li><a id="enlace-listado" href="">' + 
+                        '<article class="articulo-listado"><div id="caracteristicas-listado">' + 
+                        '<img id="foto-listado" src=' + arrayData[i].photo + '><div id="texto-listado">' + 
+                        '<p id="titulo-listado">' + arrayData[i].name + '</p>' + 
+                        '<p id="hora-listado">Fecha del evento - ' + arrayData[i].date + '</p></div></div>' + 
+                        '</article></a></li>'; 
+                    }
+                }
+            })
+            .catch(function(err) {
+                console.log(err);
+            });
+            
 }
