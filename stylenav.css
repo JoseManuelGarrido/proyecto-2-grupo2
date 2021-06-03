@@ -1,0 +1,125 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    /*AQUI EMPIEZA EL CSS DE LA BARRA DE NAVEGACION DE ALICIA*/
+
+    .navegacion {
+        width: 100%;
+        height: 14.6wh;
+        background-color: white;
+        position: fixed;
+    }
+
+    .nav-1 {
+        width: 100%;
+        height: 5.87vh;
+        background-color: #dc001b;
+        color: white;
+    }
+
+    .nav-2 {
+        width: 100%;
+        height: 8.50vh;
+        background-color: white
+    }
+
+    .logo {
+        object-fit: cover;
+        width: 15%;
+        float: left;
+        padding: 1vh;
+    }
+
+    .contacto {
+        color: rgba(81, 98, 111, 0.8)
+    }
+
+    .navegar {
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1.2vw;
+        padding-right: 1.65vw;
+    }
+
+    .navegar a {
+        text-decoration: none;
+        padding-top: 2.92vh;
+        margin-right: 1.7vw;
+    }
+
+    .navegar :hover {
+        color: #dc001b;
+    }
+
+    .navegar ::placeholder {
+        font-size: 2.2vh;
+    }
+
+    .navegar a.active {
+        color: white;
+    }
+
+    .searchcontainer {
+        float: right;
+    }
+
+    .navegar input[type=text] {
+        padding: 0.20vw;
+        margin-top: 2.11vh;
+        border: 0.5px solid rgba(81, 98, 111, 0.8);
+        border-radius: 1.36vw;
+    }
+
+    .navegar .searchcontainer button {
+        float: right;
+        padding: 0.39vw;
+        margin-top: 1.7vh;
+        border: none;
+        cursor: pointer;
+        border-radius: 0.36vw;
+    }
+
+    .navegar .searchcontainer button:hover {
+        background: #ccc;
+    }
+
+    #buscarimg {
+        width: 5%;
+        height: 5%;
+    }
+
+    /* Tablets en horizonal y escritorios normales*/
+
+    @media only screen and (min-width: 769px) and (max-width: 1199px) {
+        .navegar {
+            font-size: 2vw;
+        }
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+        .navegar {
+            font-size: 3vw;
+        }
+    }
+
+    /* Móviles en vertical*/
+
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .contacto {
+            font-size: 4vw;
+            margin-left: 4vw;
+        }
+        .navegar {
+            align-items: center;
+        }
+    }
+
+    /*AQUI TERMINA LA BARRA DE NAVEGACIÓN*/
