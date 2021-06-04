@@ -1,0 +1,1799 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+scroll-behavior: smooth;
+}
+
+
+
+body{
+    background-color: whitesmoke;
+    height: 100%;
+    font-family: montserrat;
+ 
+} 
+
+/* @@@@@@@@@@@@@  por el navegador que viene cuando desplazar subir la página web   @@@@@@@@@@@*/
+
+#navbar {
+  background-color: rgb(255, 255, 255); /* Black background color */
+  position: fixed  ;  /* Make it stick/fixed */
+  top: -60px;  /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  display: block;
+  transition: top 0.4s; /* Transition effect when sliding down (and up) */
+  padding-bottom: 10px;
+  padding-top: 10px;
+  z-index: 20;   /* The z-index property specifies the stack order of an element, is always in front of an element with a lower stack order. */
+  border-bottom: 1px solid rgba(46,62,72,.12);
+ 
+}
+  
+#slidnav{
+  padding-left: 100px;
+  list-style-type: none; 
+  font-family: montserrat;
+  font-size: 1.3vw;
+  line-height: 20px;
+}
+#slidtext{
+  color: #757575;
+  font-size: 1vw;
+  
+}
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ START NAV BAR @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+.navbar{
+
+  width: 100%;  
+
+  height: 6.64vw;
+
+  background-color:white;
+
+  /* position: fixed; */
+
+  width: 100%;
+
+  top: 0;
+
+  left: 0;  
+
+ }  
+
+ .nav-1{  
+
+  width: 100%;  
+
+  height: 2.73vw;  
+
+  background-color: #dc001b;   
+
+  position:relative;    
+
+  color: white;  
+
+ }
+
+ .nav-2{
+
+  width:100%;
+
+  height: 5.23vw;
+
+  background-color: white;
+
+  border-bottom: 1px solid rgba(46,62,72,.12);
+
+
+ }  
+
+ .logo {
+
+  object-fit: cover;
+
+  width: 15%;
+
+  float:left;
+
+  padding: 0.69vw 0vw 0vw 1.36vw;    
+
+ }
+
+ .contacto{
+
+   color:rgba(81, 98, 111, 0.8) 
+
+ }
+
+ .navegar {
+
+   overflow: hidden;
+
+   display: flex;
+
+   justify-content: flex-end;
+
+   padding-right: 1.65vw;
+
+   font-size: 1.2vw;  
+
+ }
+
+ .navegar  a {    
+
+    text-decoration: none;      
+
+    padding-top: 1.4vw;
+
+    margin-right: 1.7vw; 
+
+ }
+
+
+
+  .navegar  a.active {
+
+   color: white;
+
+ }  
+
+ .searchcontainer{
+
+   float: right;     
+
+}
+
+ .navegar input[type=text] {
+
+     padding: 0.20vw;
+
+     margin-top: 1vw;
+
+     border: 0.5px solid rgba(81, 98, 111, 0.8);      
+
+     border-radius: 1.36vw;
+
+}
+
+  
+
+   .navegar  .searchcontainer button {
+
+    float: right;
+
+    padding: 0.39vw 0.6vw;
+
+    margin-top: 0.8vw;
+
+    margin-left: 0.5vw;      
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 0.36vw;
+
+}    
+
+ #buttoncolor{
+      Background-color: #ffffff54;
+} 
+
+#buttoncolor:hover{
+  Background-color: #ddd6d6;
+  
+}
+
+  #buscarimg{
+
+   width: 5%;
+
+   height: 5%;   
+
+} 
+
+@media (max-width: 480px) {
+
+  .contacto { font-size: 2vw;}
+  .logo img{ object-fit: cover; width: 70%; height: 70%;}
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ END NAV BAR @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.eventos  
+{
+  margin-top: 18px;
+  background-color: white;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  width: 100%;
+  
+}
+
+#h6{
+  color: #757575;
+  font-family: montserrat;
+  font-size: 0.85rem;
+}
+#h5{
+  color: #212121;
+  font-family: montserrat;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.img1{
+  width: 5%;
+  height: 5%;
+  float: left;
+}
+.lista1
+{
+  font-family: montserrat;
+  list-style-type: none;
+  margin-left: 73px;
+  padding-top: 14px;
+  color: #212121;
+  
+}
+
+#Jesus{
+  font-weight: bolder;
+}
+
+.photoandtext{
+  display: flex;
+  padding-left: 100px;
+  padding-top: 25px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#flex1{
+  width: 70%;
+ border-bottom: 1px ridge rgba(0, 0, 0, 0.212);
+}
+
+
+#borderbot {
+
+}
+
+
+#phototext{
+  object-fit: cover;
+  width: 95%; 
+  height: 35%;
+  border-radius: 10px;
+ 
+
+}
+.imgtext{
+  
+  color: white;
+  width: 85%;
+  padding: 0;
+  
+}
+
+#imagetextcenter{
+  position: absolute;
+  top:  73%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  font-family: montserrat;
+  font-weight: bold;
+  text-align: center;
+  width: 40%; 
+  font-size: 2vw;
+  color: white;
+  line-height: 2.1vw;
+
+}
+
+#bolder{
+  font: weight 2000px;
+  font-size: 3vw;
+  padding-top: 70px;
+}
+
+.text2{
+  font-size: 3vw;
+  font-weight: bolder;
+  line-height: 2.5vw;
+}
+
+.Detalles{
+  font-family: montserrat;
+  color: black;
+  width: 85%;
+}
+.Detalles  ul {
+  padding: 31px;
+}
+
+
+
+
+
+#flex2{
+ 
+  width: 30%;
+
+  z-index: -1; 
+
+}
+.sticky{
+ 
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 10;
+  top: 65px;
+
+}
+
+
+
+
+.box1{
+  
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 72%;
+  height: 67px;
+  background-color: white;
+  border: none;
+  box-shadow: #ccc;
+  padding-bottom: 0;
+  padding-top: 6px;
+
+  
+}
+
+#boximg{
+  float: left;
+  width: 29%;
+  height: 85%;
+  border-radius: 10px;
+  margin-left: 6px;
+  padding-top: 4px;
+   
+}
+
+.boxtext{
+padding-left: 100px;
+margin-top: 4px;
+list-style-type: none;
+font-weight: 900;
+line-height: 25px;
+padding-bottom: 5px;
+font-size: 1vw;
+font-family: montserrat;
+}
+
+#boxtext2{
+  font-weight: normal;
+  font-size: 0.8vw;
+}
+
+.box2{
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  box-shadow: #ccc;
+  width: 72%;
+  margin-top: 20px;
+  padding: 20px;
+  padding-left: 10px;
+  padding-right: 2px;
+}
+#box2text{
+  font-family: montserrat;
+  font-size: 1vw;
+  list-style-type: none;
+  text-align: left;
+  color: rgb(119, 118, 118);
+  
+}
+
+.Asistentes{
+  padding-left: 0;
+  font-family: montserrat;
+  font-size: 1.2vw;
+  
+  display: flex;
+  margin-top: 40px;
+ 
+  
+}
+
+#fixcolor1{
+ color: #F91717; background-color: transparent; text-decoration: none; 
+}
+#fixcolor1:hover{
+  text-decoration: underline;
+}
+
+.Asistentesfix{
+  margin-left: 550px;
+}
+
+.Asistentesflex2{
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width: 82%;
+}
+
+
+ .flexbox{
+-webkit-box-shadow: 0px 0px 11px 2px rgba(224,224,224,0.5);
+-moz-box-shadow: 0px 0px 11px 2px rgba(224,224,224,0.5);
+box-shadow: 0px 0px 11px 2px rgba(224,224,224,0.5);
+background-color: white;
+border: none;
+cursor: pointer; 
+margin-left: 20px;
+padding: 20px 0px;
+border-radius: 10px;
+}  
+
+button:hover {
+  Background-color:  #ffffff54;
+}
+
+
+
+
+.fleximg{
+  
+  object-fit: cover;
+  width: 40%;
+  height: 40%;
+  padding-top: 10px;
+}
+
+.flextext{
+  padding-top: 10px;
+  text-align: center;
+  list-style-type: none;
+  
+}
+
+
+.comment{
+ 
+  width: fit-content;
+}
+
+#commentimg{
+  object-fit: cover;
+  float: left;
+  width: 5%;
+  height: 5%;
+}
+
+.commentflex{
+  background-color: white;
+  display: flex;
+  width: fit-content;
+  padding: 10px;
+  height: 50px;
+  border-radius: 15px;
+
+  
+}
+.commentflex div{
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+.vertodoevento{
+  padding-left: 0;
+  margin-top: 20px;
+} 
+
+.box3{
+border-radius: 10px;
+border:none;
+background-color: white;
+border: none;
+box-shadow: #ccc;
+width: 47%;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+#boximg3{
+  object-fit: cover;
+  border-radius: 15px;
+  float: left;
+  width: 22%;
+  height: 7%;
+  margin-left: 10px;
+  
+}
+
+.boxtext3{
+  margin-left: 126px;
+  margin-top: 7px;
+  font-family: montserrat;
+  
+
+}
+.boxlista3{
+ list-style-type: none;
+ line-height: 25px;
+
+}
+
+#boximg32{
+  width: 13%;
+  float: right;
+  margin-top: 0px;
+  position: relative;
+  top:-60px;
+  padding-right: 6px;
+}
+
+#fixcolr2{
+  color: #F91717; background-color: transparent; text-decoration: none;
+}
+#fixcolr2:hover{
+  text-decoration: underline;
+}
+
+footer{
+  background-color: tomato;
+}
+.fixfinalpart{
+  font-family: montserrat;
+  padding-left: 100px;
+  margin-top: 20px;
+  display: flex;
+  font-size: 1.7vw;
+}
+.fixfinalpart2{
+  margin-left: 468px;
+  font-size: 1.3vw;
+}
+
+.Grid{
+  padding-left: 100px;
+display: grid;
+grid-template-columns: 298px 298px 298px;
+grid-template-rows: 226px auto;
+gap: 20px;
+padding-top: 10px;
+}
+
+.grid1{
+-webkit-box-shadow: 0px 0px 11px 2px rgba(224,224,224,0.5);
+-moz-box-shadow: 0px 0px 11px 2px rgba(224,224,224,0.5);
+box-shadow: 0px 0px 11px 2px rgba(224,224,224,0.5);
+background-color: white;
+border: none;
+cursor: pointer; 
+padding: 20px;
+font-size: 2.1vw;
+}
+
+.grid1:hover{
+  background-color: #ffffff54;
+}
+.pading{
+  padding-bottom: 10px;
+}
+
+.flexlugar{
+  padding-top: 10px;
+}
+
+#imgflexdown{
+  float: left;
+  width: 8%;
+}
+.textflexdown{
+  width: 100%;
+  font-size: 1.8vw;
+  margin-left: 26px;
+  color: #757575b0;
+  padding-bottom: 5px;
+}
+
+#color1{
+  font-family: montserrat;
+  color: crimson;
+  font-size: 1vw;
+}
+
+#color2{
+  font-size: 1.7vw;
+  
+}
+#color3{
+  font-size: 1.4vw;
+  font-weight: 400;
+  
+}
+
+#buttondown22{
+  padding-top: 10px;
+  margin-left: 180px;
+  padding: 1px;
+}
+
+
+#buttondown2{
+width: 120%;
+height: 30px;
+border-radius: 7px;
+background-color:   #ffffff ;
+/* #F65858; */
+color: rgb(59, 58, 58);
+font-family: montserrat;
+font-size: 1vw;
+font-weight: 300;
+cursor: pointer;
+
+}
+
+#buttondown2:hover{
+  background-color: #f65858d2 ;
+  color: white;
+}
+
+
+#downnav {
+background-color: white;
+margin-top: 50px;
+display: flex;
+flex-direction: row;
+font-family: montserrat;
+font-weight: 900;
+height: 84px;
+width: 100%;
+padding-left: 100px;
+position:sticky;
+bottom: 0;
+border-top: 1px solid rgba(46,62,72,.12);
+
+}
+
+
+.flexdown{
+padding-top: 20px;
+width: 40%;
+font-size: 1.3vw;
+}
+
+
+#datefix{
+  color: #757575;
+  font-size: 1vw;
+  
+}
+
+
+.movedown1{
+  margin-left: 179px;
+}
+
+.downlista{
+  list-style-type: none;
+  font-family: montserrat;
+  font-size: 1.3vw;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+#imgdown{
+  object-fit: contain;
+  width: 60%;
+  height: 60%;
+  float: left;
+  padding-left: 81px;
+  margin-top: 5px;
+
+}
+
+#buttondown{
+width: 31%;
+height: 50px;
+border-radius: 7px;
+background-color:   #dc001b ;
+/* #F65858; */
+color: white;
+font-family: montserrat;
+font-size: 1.5vw;
+font-weight: 300;
+cursor: pointer;
+border: none;
+
+}
+
+#buttondown:hover{
+  background-color: #f65858d2 ;
+  
+}
+
+.movedown1{
+  margin-left: 450px;
+  padding-top:22px ;
+}
+
+#movedown2{
+padding: 0;
+padding-top: 20px;
+padding-right: 70px;
+
+}
+
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed; 
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  border-radius: 30px;
+  transition: 0.5;
+  font-family: montserrat;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 400px;
+  padding: 10px;
+  background-color: #c4c4c4f5;
+  border-radius: 30px;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=Móvil] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 32px 0;
+  border: none;
+  background: white;
+  border-radius: 15px;
+  font-family: montserrat;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=Móvil]:focus {
+  background-color: white;
+  outline: none;
+  border-radius: 15px;
+  font-family: montserrat;
+}
+
+.form-container input[type=email], .form-container input[type=Móvil] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 32px 0;
+  border: none;
+  background: white;
+  border-radius: 15px;
+  font-family: montserrat;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=email]:focus, .form-container input[type=Móvil]:focus {
+  background-color: white;
+  outline: none;
+  border-radius: 15px;
+  font-family: montserrat;
+}
+
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 15px 21px;
+  border: none;
+  cursor: pointer;
+  width: 35%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  border-radius: 100px;
+  padding-left: 21px;
+    margin-left: 43px;
+    font-family: montserrat;
+    font-size: 1.5vw;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.g-sign-in-button {
+  margin-left: 77px;
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  background-color: #f91717;
+  color: #fff;
+  border-radius: 29px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+  transition: background-color .218s, border-color .218s, box-shadow .218s;
+  margin-bottom: 25px;
+  font-family: montserrat;
+}
+
+.g-sign-in-button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+}
+
+.g-sign-in-button:active {
+  background-color: #3367D6;
+  transition: background-color 0.2s;
+}
+
+.g-sign-in-button .content-wrapper {
+  height: 100%;
+  width: 100%;
+  border: 1px solid transparent;
+}
+
+.g-sign-in-button img {
+  width: 18px;
+  height: 18px;
+}
+
+.g-sign-in-button .logo-wrapper {
+  padding: 15px;
+  background: #fff;
+  width: 48px;
+  height: 100%;
+  border-radius: 31px;
+  display: inline-block;
+}
+
+.g-sign-in-button .text-container {
+  font-family: Roboto,arial,sans-serif;
+  font-weight: 500;
+  letter-spacing: .21px;
+  font-size: 16px;
+  line-height: 48px;
+  vertical-align: top;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+}
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ footer start CSS @@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.container-footer {
+
+  width: 100%;
+
+  height: 38vh;
+
+  display: grid;
+
+  grid-template-columns: 24vw 20vw 20vw 24vw;
+
+  justify-content: space-around;
+
+  background-color: #51626F;
+
+}
+
+
+
+.container-1 {
+
+  align-self: center;
+
+  color: white;
+
+}
+
+
+
+.ciudad {
+
+  font-size: 1.5vw;
+
+  font-weight: bold;
+
+  line-height: 16vh;
+
+}
+
+
+
+.calle, .tel {
+
+  line-height: 5vh;
+
+}
+
+
+
+.container-2 {
+
+  color: white;
+
+  align-self: flex-end;
+
+  text-align: center;
+
+  line-height: 6vh;
+
+}
+
+
+
+.listado ul {
+
+  list-style: none;
+
+}
+
+
+
+.container-3 {
+
+  align-self: flex-end;
+
+  line-height: 6vh;
+
+  text-align: center;
+
+}
+
+
+
+.logincerrar a {
+
+  font-size: 1.3vw;
+
+  color: white;
+
+  text-decoration: none;
+
+}
+
+
+
+.container-4 {
+
+  text-decoration: none;
+
+  text-align: center;
+
+  margin-top: 2vh;
+
+}
+
+
+
+.texto {
+
+  color: #f39900;
+
+  font-size: 1.3vw;
+
+  font-weight: bold;
+
+  line-height: 3vh;
+
+  justify-content: flex-end;
+
+  height: 19vh;
+
+  padding-top: 7vh;
+
+}
+
+
+
+.iconos-footer {
+
+  padding-top: 2vh;
+
+}
+
+
+
+.container-pie {
+
+  width: 100%;
+
+  background-color: #51626F;
+
+  display: flex;
+
+  justify-content: space-around;
+
+  font-size: 1.2vw;
+
+}
+
+
+
+.politica {
+
+  padding: 3vw;
+
+}
+
+
+
+.privacidad a {
+
+  color: white;
+
+  text-decoration: none;
+
+}
+
+
+
+span {
+
+  color: white;
+
+}
+
+
+
+.copyright {
+
+  width: 40%;
+
+  text-decoration: none;
+
+  padding: 3vw;
+
+}
+
+
+
+/*AQUI TERMINA EL FOOTER DE ALICIA*/
+
+
+
+/*MEDIA QUERY DESKTOP, TABLET Y MOVILES Tablets en horizonal y escritorios normales*/
+
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  .navegar {
+
+      font-size: 2vw;
+
+  }
+
+  .fotodonbosco {
+
+      height: 30vh;
+
+  }
+
+  .centrado {
+
+      top: 35.5%;
+
+  }
+
+  .form-group-contacto-container {
+
+      width: 66.4vw;
+
+      height: 110vh;
+
+  }
+
+  .form-group-email {
+
+      margin-top: 25px;
+
+  }
+
+  .form-group-telefono {
+
+      margin-top: 55px;
+
+  }
+
+  .form-group-textarea {
+
+      margin-top: 80px;
+
+  }
+
+  .invalid-feedback {
+
+      margin: 0px;
+
+  }
+
+  .form-group-legal {
+
+      margin-top: 25vh;
+
+      font-size: 2vw;
+
+  }
+
+  .condiciones {
+
+      font-size: 2.5vw;
+
+  }
+
+  .form-group-botones {
+
+      margin-top: 30vh;
+
+  }
+
+  .form-group-contacto-container {
+
+      height: 125vh;
+
+  }
+
+  .ciudad {
+
+      font-weight: bold;
+
+      line-height: 12vh;
+
+  }
+
+  .calle, .tel {
+
+      line-height: 4vh;
+
+      font-size: 1.4vw;
+
+  }
+
+  .container-2 {
+
+      font-size: 1.4vw;
+
+  }
+
+  .logincerrar a {
+
+      font-size: 1.8vw;
+
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  .nav-2 {
+
+      height: 7.50vh;
+
+  }
+
+
+
+.fotodonbosco {
+
+  height: 20vh;
+
+}
+
+
+
+h1 {
+
+  height: 10vh;
+
+}
+
+
+
+.centrado {
+
+  top: 30%;
+
+}
+
+
+
+}
+
+
+
+.form-group-contacto-container {
+
+  width: 66.4vw;
+
+  height: 110vh;
+
+}
+
+
+
+/*Móviles en vertical*/
+
+/*AQUI EMPIEZA FOOTER STYLEPIE,CSS DE ALICIA*/
+
+
+
+.container-footer {
+
+  width: 100%;
+
+  height: 38vh;
+
+  display: grid;
+
+  grid-template-columns: 24vw 20vw 20vw 24vw;
+
+  justify-content: space-around;
+
+  background-color: #51626F;
+
+}
+
+
+
+.container-1 {
+
+  align-self: center;
+
+  color: white;
+
+}
+
+
+
+.ciudad {
+
+  font-size: 1.5vw;
+
+  font-weight: bold;
+
+  line-height: 16vh;
+
+}
+
+
+
+.calle, .tel {
+
+  line-height: 5vh;
+
+}
+
+
+
+.container-2 {
+
+  color: white;
+
+  align-self: flex-end;
+
+  text-align: center;
+
+  line-height: 6vh;
+
+}
+
+
+
+.listado ul {
+
+  list-style: none;
+
+}
+
+
+
+.container-3 {
+
+  align-self: flex-end;
+
+  line-height: 6vh;
+
+  text-align: center;
+
+}
+
+
+
+.logincerrar a {
+
+  font-size: 1.3vw;
+
+  color: white;
+
+  text-decoration: none;
+
+}
+
+
+
+.container-4 {
+
+  text-decoration: none;
+
+  text-align: center;
+
+  margin-top: 2vh;
+
+}
+
+
+
+.texto {
+
+  color: #f39900;
+
+  font-size: 1.3vw;
+
+  font-weight: bold;
+
+  line-height: 3vh;
+
+  justify-content: flex-end;
+
+  height: 19vh;
+
+  padding-top: 7vh;
+
+}
+
+
+
+.iconos-footer {
+
+  padding-top: 2vh;
+
+}
+
+
+
+.container-pie {
+
+  width: 100%;
+
+  background-color: #51626F;
+
+  display: flex;
+
+  justify-content: space-around;
+
+  font-size: 1.2vw;
+
+}
+
+
+
+.politica {
+
+  padding: 3vw;
+
+}
+
+
+
+.privacidad a {
+
+  color: white;
+
+  text-decoration: none;
+
+}
+
+
+
+span {
+
+  color: white;
+
+}
+
+
+
+.copyright {
+
+  width: 40%;
+
+  text-decoration: none;
+
+  padding: 3vw;
+
+}
+
+
+
+/*AQUI TERMINA EL FOOTER DE ALICIA*/
+
+
+
+/*MEDIA QUERY DESKTOP, TABLET Y MOVILES Tablets en horizonal y escritorios normales*/
+
+
+
+@media (min-width: 480px) and (max-width: 1200px) {
+
+  .navegar {
+
+      font-size: 2vw;
+
+  }
+
+  .fotodonbosco {
+
+      height: 30vh;
+
+  }
+
+  .centrado {
+
+      top: 35.5%;
+
+  }
+
+  .form-group-contacto-container {
+
+      width: 66.4vw;
+
+      height: 110vh;
+
+  }
+
+  .form-group-email {
+
+      margin-top: 25px;
+
+  }
+
+  .form-group-telefono {
+
+      margin-top: 55px;
+
+  }
+
+  .form-group-textarea {
+
+      margin-top: 80px;
+
+  }
+
+  .invalid-feedback {
+
+      margin: 0px;
+
+  }
+
+  .form-group-legal {
+
+      margin-top: 25vh;
+
+      font-size: 2vw;
+
+  }
+
+  .condiciones {
+
+      font-size: 2.5vw;
+
+  }
+
+  .form-group-botones {
+
+      margin-top: 30vh;
+
+  }
+
+  .form-group-contacto-container {
+
+      height: 125vh;
+
+  }
+
+  .ciudad {
+
+      font-weight: bold;
+
+      line-height: 12vh;
+
+  }
+
+  .calle, .tel {
+
+      line-height: 4vh;
+
+      font-size: 1.4vw;
+
+  }
+
+  .container-2 {
+
+      font-size: 1.4vw;
+
+  }
+
+  .logincerrar a {
+
+      font-size: 1.8vw;
+
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  .nav-2 {
+
+      height: 7.50vh;
+
+  }
+
+
+
+.fotodonbosco {
+
+  height: 20vh;
+
+}
+
+
+
+h1 {
+
+  height: 10vh;
+
+}
+
+
+
+.centrado {
+
+  top: 30%;
+
+}
+
+
+
+}
+
+
+
+.form-group-contacto-container {
+
+  width: 66.4vw;
+
+  height: 110vh;
+
+}
+/* @@@@@@@@@@@@@@@@@@@@@@ footer end CSS  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* For mobile phones: */
+@media (max-width: 480px)  {
+
+  #navbar{
+    
+  }
+
+  #slidnav{
+    font-size: 3vw;
+    padding-left: 30px;
+  }
+  #slidtext{
+    font-size: 2.5vw;
+  }
+
+  .eventos {
+     width: fit-content;
+     margin-top: 1.2%;
+     padding-top: 10px;
+    padding-left: 137px; }
+
+   #h5, #h6 { font-size: 3vw;}
+
+.imglogo1{
+  margin-left: 23px;
+}
+  .img1{
+    width: 11%;
+    height: 10%;
+  }
+  .lista1{ font-size: 2.5vw;  margin-left: 45px;
+    padding-top: 5px;
+
+  }
+  .photoandtext{
+
+    display: flex;
+    flex-direction:column-reverse;
+    padding-left: 30px;
+    
+  }
+ 
+  #flex2{
+    width: 100%;
+  }
+
+  .box1{
+    width: 94%;
+  }
+  #boximg{
+    object-fit: cover;
+    width: 17%;
+    height: 81%;
+  }
+  .boxtext{
+    font-size: 3vw;
+  }
+#boxtext2{
+  font-size: 2vw;
+}
+.box2{
+  width: 94%;
+  padding-bottom: 10px;
+
+}
+#box2text{
+font-size: 3vw;
+}
+#box2text img {
+  width: 9%;
+}
+#box2img2{
+  width: 93%;
+    padding-bottom: 26px;
+}
+ 
+ #downnav{
+   padding-left: 30px;
+ }
+
+ #flex1{
+   width: 100%;
+ }
+ #phototext{
+   position: relative;
+  object-fit: cover;
+  width: 110%;
+ }
+ #imagetextcenter{
+  position: absolute;
+  top: 137%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  font-size: 7vw;
+  line-height: 6.1vw;
+  width: 83%;
+ }
+ #bolder{
+  font-size: 6vw;
+ }
+ .text2{
+  font-size: 5vw;
+  line-height: 5.5vw;
+ }
+ 
+ .Detalles{
+  width: 93%;
+ }
+ .Asistentes{
+  font-size: 2.4vw;
+  margin-top: 20px;
+ }
+ .Asistentesfix{
+
+  margin-left: 300px;
+ }
+
+ .Asistentesflex2{
+  width: 90%;
+  margin-left: -14px;
+ }
+ .flexbox{
+   
+  width: 91%;
+  
+ }
+ .comment{
+  margin-top: -37px;
+  width: 89%;
+ }
+ #commentimg{
+width: 10%;
+ }
+ .box3{
+  width: 89%;
+  padding-bottom: 6px;
+ }
+ .vertodoevento{
+  margin-top: -17px;
+ }
+ #boximg3{
+  width: 20%;
+  height: 7%;
+ }
+ #downnav{
+  margin-top: -32px;
+ }
+ .downlista{
+   font-size: 3vw;
+  width: 156px;
+
+ }
+
+#datefix{
+
+font-size: 2.5vw;
+ }
+
+ .media{
+  font-size: 2.5vw;
+  margin-top: 18px;
+  line-height: 2px;
+ }
+
+ .movedown1{
+  margin-left: 67px;
+  padding-top: 16px;
+ }
+ #movedown2{
+  margin-bottom: 0;
+  padding: 0;
+  margin-top: 36px;
+  margin-left: -27px;
+}
+
+ 
+
+ #imgdown{
+
+  float: left;
+  width: 30%;
+  height: 30%;
+  padding: 0;
+
+ }
+
+#buttondown{
+  width: 50%;
+  height: 50%;
+}
+
+
+
+  }
