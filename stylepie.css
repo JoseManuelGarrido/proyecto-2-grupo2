@@ -1,0 +1,179 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    /*AQUI EMPIEZA FOOTER STYLEPIE,CSS DE ALICIA*/
+
+    .container-footer {
+        width: 100%;
+        height: 38vh;
+        display: grid;
+        grid-template-columns: 24vw 20vw 20vw 24vw;
+        justify-content: space-around;
+        background-color: #51626F;
+        position: sticky;
+    }
+
+    .container-1 {
+        align-self: center;
+        color: white;
+    }
+
+    .ciudad {
+        font-size: 1.5vw;
+        font-weight: bold;
+        line-height: 18vh;
+    }
+
+    .calle, .tel {
+        line-height: 5vh;
+    }
+
+    .container-2 {
+        color: white;
+        align-self: flex-end;
+        text-align: center;
+        line-height: 6vh;
+    }
+
+    .listado ul {
+        list-style: none;
+    }
+
+    .container-3 {
+        align-self: flex-end;
+        line-height: 6vh;
+        text-align: center;
+    }
+
+    .logincerrar a {
+        font-size: 1.3vw;
+        color: white;
+        text-decoration: none;
+    }
+
+    .container-4 {
+        text-decoration: none;
+        text-align: center;
+        margin-top: 2vh;
+    }
+
+    .texto {
+        color: #f39900;
+        font-size: 1.3vw;
+        font-weight: bold;
+        line-height: 3vh;
+        justify-content: flex-end;
+        height: 19vh;
+        padding-top: 7vh;
+    }
+
+    .iconos-footer {
+        padding-top: 2vh;
+    }
+
+    .container-pie {
+        width: 100%;
+        background-color: #51626F;
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.2vw;
+    }
+
+    .politica {
+        padding: 3vw;
+    }
+
+    .privacidad a {
+        color: white;
+        text-decoration: none;
+    }
+
+    span {
+        color: white;
+    }
+
+    .copyright {
+        width: 40%;
+        text-decoration: none;
+        padding: 3vw;
+    }
+
+    /* Tablets en horizonal y escritorios normales*/
+
+    @media (min-width: 769px) and (max-width: 1199px) {
+        .ciudad {
+            font-weight: bold;
+            line-height: 15vh;
+        }
+        .calle, .tel {
+            line-height: 6vh;
+            font-size: 1.4vw;
+        }
+        .container-2 {
+            font-size: 1.4vw;
+            align-self: end;
+            padding: 3vh;
+        }
+        .container-3 {
+            align-self: center;
+            margin-top: 12vh;
+        }
+        .logotipo {
+            height: 20vh;
+        }
+        .logincerrar a {
+            font-size: 1.8vw;
+        }
+        .texto {
+            font-size: 1.7vw;
+        }
+    }
+
+    /*Móviles en horizontal o tablets en vertical*/
+
+    @media only screen and (max-width:768px) and (min-width:481px) {
+        .container-1 {
+            margin-top: 0;
+        }
+        .ciudad {
+            font-weight: bold;
+            line-height: 15vh;
+        }
+        .calle, .tel {
+            line-height: 6vh;
+            font-size: 1.4vw;
+        }
+        .container-2 {
+            font-size: 1.4vw;
+            align-self: end;
+            padding: 3vh;
+        }
+        .container-3 {
+            align-self: center;
+            margin-top: 12vh;
+        }
+        .logopie {
+            width: 20vw;
+            height: 11vh;
+            object-fit: cover;
+            margin-top: 3vh;
+        }
+        .logincerrar a {
+            font-size: 1.8vw;
+        }
+        .texto {
+            font-size: 1.7vw;
+        }
+        .icono {
+            display: inline;
+            width: 5vw;
+            height: 5vh;
+        }
+    }

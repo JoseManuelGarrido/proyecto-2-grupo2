@@ -1,0 +1,495 @@
+* {
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 'montserrat', sans-serif;
+}
+
+/*AQUI EMPIEZA EL CSS DE LA BARRA DE NAVEGACION DE ALICIA*/
+
+.navegacion {
+    width: 100%;
+    height: 14.6wh;
+    background-color: white;
+    position: -webkit-sticky;
+}
+
+.nav-1 {
+    width: 100%;
+    height: 5.87vh;
+    background-color: #dc001b;
+    color: white;
+}
+
+.nav-2 {
+    width: 100%;
+    height: 8.50vh;
+    background-color: white
+}
+
+.logo {
+    object-fit: cover;
+    width: 15%;
+    float: left;
+    padding: 1vh;
+}
+
+.contacto {
+    color: rgba(81, 98, 111, 0.8)
+}
+
+.navegar {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2vw;
+    padding-right: 1.65vw;
+}
+
+.navegar a {
+    text-decoration: none;
+    padding-top: 2.92vh;
+    margin-right: 1.7vw;
+}
+
+.navegar :hover {
+    color: #dc001b;
+}
+
+.navegar ::placeholder {
+    font-size: 2.2vh;
+}
+
+.navegar a.active {
+    color: white;
+}
+
+.searchcontainer {
+    float: right;
+}
+
+.navegar input[type=text] {
+    padding: 0.20vw;
+    margin-top: 2.11vh;
+    border: 0.5px solid rgba(81, 98, 111, 0.8);
+    border-radius: 1.36vw;
+}
+
+.navegar .searchcontainer button {
+    float: right;
+    padding: 0.39vw;
+    margin-top: 1.7vh;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.36vw;
+}
+
+.navegar .searchcontainer button:hover {
+    background: #ccc;
+}
+
+#buscarimg {
+    width: 5%;
+    height: 5%;
+}
+
+/* Tablets en horizonal y escritorios normales*/
+
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+    .navegar {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .navegar {
+        font-size: 3vw;
+    }
+}
+
+/* Móviles en vertical*/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .contacto {
+        font-size: 4vw;
+        margin-left: 4vw;
+    }
+    .navegar {
+        align-items: center;
+    }
+}
+
+/*AQUI TERMINA LA BARRA DE NAVEGACIÓN*/
+
+/*AQUI EMPIEZA FORMULARIO DE CONTACTO CSS DE ALICIA*/
+
+.form-group-contacto-container {
+    width: 66.4vw;
+    height: 160vh;
+    display: grid;
+    grid-template-rows: 09vw 09vw 09vw 20vw 14vw 09vw;
+    margin-left: 16.60vw;
+    padding-left: 4.4vw;
+    padding-top: 6.5vh;
+    border: 0.03vw solid rgba(81, 98, 111, 0.5);
+    background-color: #f0f0f0;
+    border-radius: 3%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.fotodonbosco {
+    width: 100%;
+    height: 46vh;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    object-fit: cover;
+}
+
+.centrado {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.3vw;
+}
+
+h1 {
+    height: 20vh;
+    padding: 2.5vw;
+    background-color: rgba(255, 255, 255, 0.50);
+    position: relative;
+}
+
+.form-control- .form-group-name {
+    font-size: 1.78vw;
+}
+
+.form-group-name .requerido {
+    color: #DC001B;
+    font-size: 1.49vw;
+}
+
+.form-group-name .form-control {
+    width: 58.75vw;
+    height: 8.92vh;
+    border-radius: 2.2vw;
+    border: 0.01vw solid rgba(81, 98, 111, 0.5);
+}
+
+.form-group-email {
+    font-size: 1.78vw;
+}
+
+.form-group-email .requerido {
+    color: #DC001B;
+    font-size: 1.49vw;
+    border-radius: 2.2vw;
+}
+
+.form-group-email .form-control {
+    width: 58.75vw;
+    height: 8.92vh;
+    border-radius: 2.2vw;
+    border: 0.01vw solid rgba(81, 98, 111, 0.5);
+}
+
+.form-group-telefono {
+    font-size: 1.78vw;
+}
+
+.form-group-telefono .requerido {
+    color: #DC001B;
+    font-size: 1.49vw;
+    border-radius: 2.2vw;
+}
+
+.form-group-textarea {
+    font-size: 1.78vw;
+}
+
+.form-group-telefono .form-control {
+    width: 58.75vw;
+    height: 8.92vh;
+    border-radius: 2.2vw;
+    border: 0.01vw solid rgba(81, 98, 111, 0.5);
+}
+
+.form-group-textarea .form-control {
+    width: 58.6vw;
+    height: 23.00vh;
+    border-radius: 2.2vw;
+    border: 0.2px solid rgba(81, 98, 111, 0.5)!important;
+}
+
+.condiciones {
+    font-size: 1.78vw;
+}
+
+.invalid-feedback h6 {
+    padding-top: 2.25vh;
+    font-size: 1vw;
+    color: black;
+}
+
+.form-check-label {
+    color: black;
+    font: 1.48vw;
+}
+
+.form-group-botones {
+    width: 57vw;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    padding: 0!important;
+}
+
+.boton1 {
+    width: 13.87vw;
+    height: 8.44vh;
+    color: white;
+    font-size: 1.63vw;
+    background-color: #dc001b;
+    border-color: #dc001b;
+    border-radius: 2.2vw;
+    border: none;
+}
+
+.boton2 {
+    width: 13.87vw;
+    height: 8.44vh;
+    color: #fff;
+    font-size: 1.63vw;
+    background-color: #51626F;
+    border-color: #51626F;
+    margin-left: 1.48vw;
+    border-radius: 2.2vw;
+    border: none;
+}
+
+.boton1:hover {
+    color: #DC001B;
+    background-color: white;
+    border-color: #51626F;
+}
+
+.boton2:hover {
+    color: #DC001B;
+    background-color: white;
+    border-color: #DC001B;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 798px) {
+    .fotodonbosco {
+        height: 25vh;
+    }
+    .centrado {
+        top: 25%;
+    }
+    .form-group-contacto-container {
+        width: 66.4vw;
+        height: 110vh;
+    }
+    .form-group-email {
+        margin-top: 7.5vh;
+    }
+    .form-group-telefono {
+        margin-top: 14vh;
+    }
+    .form-group-textarea {
+        margin-top: 19vh;
+    }
+    .invalid-feedback {
+        margin: 0px;
+    }
+    .form-group-legal {
+        margin-top: 35vh;
+        font-size: 2vw;
+    }
+    .condiciones {
+        font-size: 2.5vw;
+    }
+    .form-group-botones {
+        margin-top: 40vh;
+    }
+}
+
+/*aqui TERMINA el CSS DEL FORMULARIO DE CONTACTO ALICIA*/
+
+/*AQUI EMPIEZA FOOTER STYLEPIE,CSS DE ALICIA*/
+
+.container-footer {
+    width: 100%;
+    height: 38vh;
+    display: grid;
+    grid-template-columns: 24vw 20vw 20vw 24vw;
+    justify-content: space-around;
+    background-color: #51626F;
+}
+
+.container-1 {
+    align-self: center;
+    color: white;
+}
+
+.ciudad {
+    font-size: 1.5vw;
+    font-weight: bold;
+    line-height: 16vh;
+}
+
+.calle, .tel {
+    line-height: 5vh;
+}
+
+.container-2 {
+    color: white;
+    align-self: flex-end;
+    text-align: center;
+    line-height: 6vh;
+}
+
+.listado ul {
+    list-style: none;
+}
+
+.container-3 {
+    align-self: flex-end;
+    line-height: 6vh;
+    text-align: center;
+}
+
+.logincerrar a {
+    font-size: 1.3vw;
+    color: white;
+    text-decoration: none;
+}
+
+.container-4 {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.texto {
+    color: #f39900;
+    font-size: 1.3vw;
+    font-weight: bold;
+    line-height: 3vh;
+    justify-content: flex-end;
+    height: 19vh;
+    padding-top: 7vh;
+}
+
+.iconos-footer {
+    padding-top: 2vh;
+}
+
+.container-pie {
+    width: 100%;
+    background-color: #51626F;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2vw;
+}
+
+.politica {
+    padding: 3vw;
+}
+
+.privacidad a {
+    color: white;
+    text-decoration: none;
+}
+
+span {
+    color: white;
+}
+
+.copyright {
+    width: 40%;
+    text-decoration: none;
+    padding: 3vw;
+}
+
+/* Tablets en horizonal y escritorios normales*/
+
+@media (min-width: 769px) and (max-width: 1199px) {
+    .ciudad {
+        font-weight: bold;
+        line-height: 15vh;
+    }
+    .calle, .tel {
+        line-height: 6vh;
+        font-size: 1.4vw;
+    }
+    .container-2 {
+        font-size: 1.4vw;
+        align-self: end;
+        padding: 3vh;
+    }
+    .container-3 {
+        align-self: center;
+        margin-top: 12vh;
+    }
+    .logotipo {
+        height: 20vh;
+    }
+    .logincerrar a {
+        font-size: 1.8vw;
+    }
+    .texto {
+        font-size: 1.7vw;
+    }
+}
+
+/*Móviles en horizontal o tablets en vertical*/
+
+@media only screen and (max-width:768px) and (min-width:481px) {
+    .container-1 {
+        margin-top: 0;
+    }
+    .ciudad {
+        font-weight: bold;
+        line-height: 15vh;
+    }
+    .calle, .tel {
+        line-height: 6vh;
+        font-size: 1.4vw;
+    }
+    .container-2 {
+        font-size: 1.4vw;
+        align-self: end;
+        padding: 3vh;
+    }
+    .container-3 {
+        align-self: center;
+        margin-top: 12vh;
+    }
+    .logopie {
+        width: 20vw;
+        height: 11vh;
+        object-fit: cover;
+        margin-top: 3vh;
+    }
+    .logincerrar a {
+        font-size: 1.8vw;
+    }
+    .texto {
+        font-size: 1.7vw;
+    }
+    .icono {
+        display: inline;
+        width: 5vw;
+        height: 5vh;
+    }
+}
+
+/*AQUI TERMINA EL FOOTER DE ALICIA*/
